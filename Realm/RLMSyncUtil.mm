@@ -56,6 +56,10 @@ NSString *const kRLMSyncTokenKey                = @"token";
 NSString *const kRLMSyncUnderlyingErrorKey      = @"underlying_error";
 NSString *const kRLMSyncUserIDKey               = @"user_id";
 
+unsigned long long RLMGetComputedPrivleges(RLMRealm *realm, id object) {
+    return 0;
+}
+
 #pragma mark - C++ APIs
 
 namespace {
